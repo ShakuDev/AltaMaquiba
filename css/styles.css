@@ -30,25 +30,25 @@
     border-radius: 20px;
     padding-left: 15px;
 }
-.left_nav{
+.right_nav{
     width: 30%;
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.left_nav .car{
+.right_nav .car{
     color: #143f6b;
     margin-top: 10px;
 }
-.left_nav .menuser{
+.right_nav .menuser{
     background-color: #f6f54d;
     margin: 3px;
     padding: 3px 9px 0;
     border-radius: 50px;
     color: #143f6b;
 }
-.left_nav.active{
+.right_nav.active{
     background-color: #f55353;
     height: 50vh;
     border-radius: 0  0 0px 20px;
