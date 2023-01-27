@@ -15,8 +15,36 @@
 }
 .nav-title{
     width: 30%;
+    padding-left: 40px;
 }
-.car{
+.search{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 400px;
+    border: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.left-nav{
     width: 30%;
     font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-nav .car{
+    color: #143f6b;
+    margin-top: 10px;
+}
+.left-nav .user{
+    background-color: #f6f54d;
+    margin: 3px;
+    padding: 3px 9px 0;
+    border-radius: 50px;
+    color: #143f6b;
 }
